@@ -20,3 +20,23 @@ Head
     > Except title nothing is visible to the user
 Body
     > All the content of the website which is visible to the user
+
+Block Level
+> Always start from new line
+> It occupied the whole width of screen
+
+Inline Element
+> Start in same line
+> It only occupies the space which is required
+
+src> source
+alt> alternate
+
+Name
+yourimage
+something about you
+Technolgy
+hobbies
+map
+footer
+socailLink
