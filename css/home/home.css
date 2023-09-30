@@ -1,0 +1,98 @@
+body{
+    margin:auto
+}
+a{
+    text-decoration: none;
+}
+header{
+    height:80px;
+    /* border:5px solid red; */
+    background-color: #3b2632;
+}
+
+#brand{
+    float:left;
+    color:white;
+    font-size:30px;
+    margin-top:1%;
+    margin-left:1%
+}
+
+#social{
+    float: right;
+    margin-top:12px;
+    margin-right:18px
+}
+
+.socialLogo{
+    height:50px
+}
+
+/* Search Css Start */
+#search{
+    height:450px;
+    /* border:5px dotted green; */
+    background-image: url('image/food-wallpaper.png');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+     background-size: 100% 450px;
+}
+
+.logo{
+    height:150px;
+    width:150px;
+    background: white;
+    border-radius: 50%;
+    margin-top:1%;
+    margin-left:45%;
+    position: absolute;
+    font-size: 90px;
+}
+
+.logo>span{
+    margin-top:14%;
+    margin-left:20%;
+    position: absolute;
+}
+
+#heading{
+    font-size: 60px;
+    color:white;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top:14%;
+    margin-left:26%;
+    position: absolute;
+}
+
+.dropdown{
+    height: 60px;
+    width:50%;
+    /* border:2px solid white; */
+    margin-top:21%;
+    margin-left:28%;
+    position: absolute;
+}
+
+select{
+    height:60px;
+    width: 40%;
+    text-align: center;
+    font-size:20px
+}
+
+#restSelect{
+    width: 59%;
+}
+
+/* Quick Search Css Start */
+#quickSearch{
+    height:600px;
+    border:10px groove orange
+}
+
+/* Footer Css Start */
+footer{
+    height:80px;
+    border:5px double blue
+}

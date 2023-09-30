@@ -40,3 +40,56 @@ hobbies
 map
 footer
 socailLink
+
+
+inline
+styletags
+stylesheet
+
+inline > styletags > stylesheet
+
+inline{
+    color:red,
+    font-size:30px
+}
+
+styletag{
+    color:orange,
+    height:30px;
+    width:40px
+}
+
+stylesheet{
+    height:40px;
+    font-size:40px
+    background-color:green
+}
+
+{
+    color:red,
+    font-size:30px;
+    height:30px;
+    width:40px;
+    background-color:green;
+
+}
+
+
+TagName 
+> h1, p
+> it will apply css to all those tag you target
+
+id
+> #
+> To target something unique
+
+class
+> .
+> to target multiple element with same property
+
+https://imgbb.com/
+
+
+//css
+position:absolute
+position:relative
