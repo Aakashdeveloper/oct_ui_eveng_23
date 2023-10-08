@@ -114,3 +114,20 @@ col-md > 768px
 col-lg > 992px
 col-xl > 1200
 col-xxl > 1400
+
+
+condition
+ifelse
+function
+rest
+darklight
+coupons
+////////
+array
+loop
+mapfilter
+object
+goelocation Api calling
+clouser
+hoisting
+form validation
