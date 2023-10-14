@@ -2,6 +2,7 @@ https://code.visualstudio.com/ > Install
 https://git-scm.com/downloads > Install
 https://github.com/ > Create Account
 https://github.com/Aakashdeveloper > Follow
+https://nodejs.org/en > Install
 
 //extenstion
 vscode-icons
@@ -122,12 +123,17 @@ function
 rest
 darklight
 coupons
-////////
 array
 loop
 mapfilter
 object
+JSON
 goelocation Api calling
 clouser
+////////
 hoisting
+string opt
 form validation
+dynamic drop
+
+https://api.openweathermap.org/data/2.5/forecast/daily?q=Mumbai&mode=json&units=metric&cnt=5&appid=fbf712a5a83d7305c3cda4ca8fe7ef29

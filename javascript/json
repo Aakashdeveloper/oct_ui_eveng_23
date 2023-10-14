@@ -1,0 +1,25 @@
+Json> Javascript Object notation
+
+// array of object
+
+var movies = [
+    {
+        "name":"Jab We Met",
+        "rating":4.7,
+        "ind":"Bollywood"
+    },
+    {
+        "name":"Avengers",
+        "rating":4.2,
+        "ind":"Hollywood"
+    }
+]
+
+movies[0]
+{name: 'Jab We Met', rating: 4.7, ind: 'Bollywood'}
+movies[0].name
+'Jab We Met'
+movies[0].name
+'Jab We Met'
+movies[1].name
+'Avengers'
