@@ -1,0 +1,225 @@
+body{
+    margin:auto
+}
+a{
+    text-decoration: none;
+}
+header{
+    height:80px;
+    /* border:5px solid red; */
+    background-color: #3b2632;
+}
+
+#brand{
+    float:left;
+    color:white;
+    font-size:30px;
+    margin-top:1%;
+    margin-left:1%
+}
+
+#social{
+    float: right;
+    margin-top:12px;
+    margin-right:18px
+}
+
+.socialLogo{
+    height:50px
+}
+
+/* Search Css Start */
+#search{
+    height:450px;
+    /* border:5px dotted green; */
+    background-image: url('image/food-wallpaper.png');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+     background-size: 100% 450px;
+}
+
+.logo{
+    height:150px;
+    width:150px;
+    background: white;
+    border-radius: 50%;
+    margin-top:1%;
+    margin-left:45%;
+    position: absolute;
+    font-size: 90px;
+}
+
+.logo>span{
+    margin-top:14%;
+    margin-left:20%;
+    position: absolute;
+}
+
+#heading{
+    font-size: 60px;
+    color:white;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top:14%;
+    margin-left:26%;
+    position: absolute;
+}
+
+.dropdown{
+    height: 60px;
+    width:50%;
+    /* border:2px solid white; */
+    margin-top:21%;
+    margin-left:28%;
+    position: absolute;
+}
+
+select{
+    height:60px;
+    width: 40%;
+    text-align: center;
+    font-size:20px
+}
+
+#restSelect{
+    width: 59%;
+}
+
+/* Quick Search Css Start */
+#quickSearch{
+    /* height:600px; */
+    /* border:10px groove orange; */
+    width:80%;
+    margin-left: 10%;
+    margin-top:2%;
+    margin-bottom: 2%;
+}
+
+.quickHeading{
+    color:#3b2632;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left:2%;
+    display: block;
+}
+
+.quickSubHeading{
+    color:gray;
+    font-size: 20px;
+    margin-left:2%;
+    line-height: 2;
+}
+
+.mainBox{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tileContainer{
+    height:180px;
+    width:30%;
+    margin-left:2%;
+    margin-top: 3%;
+    /* border:2px solid red; */
+    box-shadow: 10px 20px 10px gray;
+    display: flex;
+}
+
+.tileComponent1{
+    width:52%
+}
+
+.tileComponent1 > img {
+    width:100%;
+    height:100%
+}
+
+.tileComponent2{
+    width:45%;
+    margin-left: 3%;
+    margin-top:15%
+}
+
+.compHeading{
+    font-size: 25px;
+    font-weight: bold;
+    color: #3b2632
+}
+
+.compSubHeading{
+    font-size: 20px;
+    color: gray
+}
+
+
+
+/* Footer Css Start */
+footer{
+    /* border:5px double blue */
+    background-color:#3b2632;
+    color:white;
+    text-align:center
+}
+
+.footText{
+    font-size:20px;
+}
+
+.footDiv{
+    display: inline-block;
+    width:32%;
+    border-right: 2px solid white;
+}
+
+.noBroder{
+    border:none
+}
+
+ul{
+    list-style-type: none;
+}
+
+@media screen and (max-width:1600px){
+    body{
+        background-color:rgb(247, 161, 139)
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color:rgb(247, 229, 139)
+    }
+}
+
+@media screen and (max-width:1100px){
+    body{
+        background-color:rgb(176, 246, 141)
+    }
+}
+
+@media screen and (max-width:945px){
+    body{
+        background-color:rgb(141, 229, 245)
+    }
+
+    .tileContainer{
+        width:45%
+    }
+}
+
+@media screen and (max-width:800px){
+    body{
+        background-color:rgb(143, 141, 244)
+    }
+}
+
+
+
+@media screen and (max-width:600px){
+    body{
+        background-color:rgb(244, 141, 237)
+    }
+    .tileContainer{
+        width:90%
+    }
+}
